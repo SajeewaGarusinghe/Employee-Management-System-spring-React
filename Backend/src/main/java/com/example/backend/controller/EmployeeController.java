@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3000")//only this can acess rst api
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {

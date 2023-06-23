@@ -21,23 +21,23 @@ public class BackendApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Employee employee = new Employee();
-        employee.setFirstName("Sajeewa");
-        employee.setLastName("Garusinghe");
-        employee.setEmailId("sajeeva616@gmail.com");
-        employeeRepository.save(employee);
-
-        Employee employee1 = new Employee();
-        employee1.setFirstName("Sajeewa");
-        employee1.setLastName("Garusinghe");
-        employee1.setEmailId("sajeeva616@gmail.com");
-        employeeRepository.save(employee1);
-
-        Employee employee2 = new Employee();
-        employee2.setFirstName("Sajeewa");
-        employee2.setLastName("Garusinghe");
-        employee2.setEmailId("sajeeva616@gmail.com");
-        employeeRepository.save(employee2);
+//        Employee employee = new Employee();
+//        employee.setFirstName("Sajeewa");
+//        employee.setLastName("Garusinghe");
+//        employee.setEmailId("sajeeva616@gmail.com");
+//        employeeRepository.save(employee);
+//
+//        Employee employee1 = new Employee();
+//        employee1.setFirstName("Sajeewa");
+//        employee1.setLastName("Garusinghe");
+//        employee1.setEmailId("sajeeva616@gmail.com");
+//        employeeRepository.save(employee1);
+//
+//        Employee employee2 = new Employee();
+//        employee2.setFirstName("Sajeewa");
+//        employee2.setLastName("Garusinghe");
+//        employee2.setEmailId("sajeeva616@gmail.com");
+//        employeeRepository.save(employee2);
     }
 
 }
