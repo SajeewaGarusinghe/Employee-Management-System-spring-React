@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <div>
+      <footer className="footer">
+        <span className="text-muted">
+          All Rights Reserved 2023 @SajeewaGarusinghe
+        </span>
+      </footer>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
